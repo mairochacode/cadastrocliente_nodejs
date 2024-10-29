@@ -2,6 +2,9 @@
   "name": "cadastrocliente_nodejs",
   "version": "1.0.0",
   "main": ".\\src\\index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "node .\\src\\index",
     "test": "echo \"Error: no test specified\" && exit 1"

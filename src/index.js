@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors"); // Importa o CORS
 const app = express();
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 // Middleware para permitir CORS
 app.use(cors());
